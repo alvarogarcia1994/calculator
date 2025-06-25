@@ -1,0 +1,225 @@
+/* Import font*/
+@import url('https://fonts.googleapis.com/css2?family=Farsan&family=Geist:wght@100..900&family=Kaushan+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Best practices */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Farsan", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Page styles */
+body{
+    min-height: 100vh;
+    background-image: url('../images/HD-wallpaper-blue-neon-masonry-texture-neon-brick-texture-black-background-neon-abstraction-masonry.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Styles for main box (class calculator */
+.calculator{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    background-color: rgb(51, 102, 204);
+    backdrop-filter: blur(15px);
+    border: 1px solid silver;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 80px 50px -30px rgba(37, 186, 255, 0.25);
+}
+
+input{
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 36px;
+    text-align: right;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+}
+
+button{
+    padding: 15px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 18px;
+    margin: 0.85rem;
+    color: white;
+    cursor: pointer;
+}
+
+.equal{
+    background-color: transparent;
+}
+
+/*.equal:hover{
+    background-color: orangered;
+    color: white;
+    box-shadow: 0 0 5px orangered,
+                0 0 25px orangered,
+                0 0 50px orangered,
+                0 0 200px orangered;
+    border: 2px solid orangered;
+}*/
+
+.arithmetic-operation{
+    background-color: transparent;
+    color: white;
+}
+
+/*.arithmetic-operation:hover{
+    background-color: orange;
+    color: white;
+    box-shadow: 0 0 5px orange,
+                0 0 25px orange,
+                0 0 50px orange,
+                0 0 200px orange;
+    border: 2px solid orange;
+}*/
+
+.clear{
+    background-color: transparent;
+    color: white;
+    font-weight: 400;
+}
+
+/*.clear:hover{
+    background-color: red;
+    color: white;
+    box-shadow: 0 0 5px red,
+                0 0 25px red,
+                0 0 50px red,
+                0 0 200px red;
+    border: 2px solid red;
+}*/
+
+.numeric_key{
+    background-color: transparent;
+    color: white;
+}
+
+/*.numeric_key:hover{
+    background-color: #3ffa36;
+    color: white;
+    box-shadow: 0 0 5px #3ffa36,
+                0 0 25px #3ffa36,
+                0 0 50px #3ffa36,
+                0 0 200px #3ffa36;
+    border: 2px solid #3ffa36;
+}*/
+
+.point{
+    background-color: transparent;
+    color: white;
+}
+
+/*.point:hover{
+    background-color: blue;
+    color: white;
+    box-shadow: 0 0 5px blue,
+                0 0 25px blue,
+                0 0 50px blue,
+                0 0 200px blue;
+    border: 2px solid blue;
+}*/
+
+/*.light-n-dark-mode{
+    background-color: transparent;
+    color: white;
+}*/
+
+/*.light-n-dark-mode:hover{
+    background-color: blueviolet;
+    color: white;
+    box-shadow: 0 0 5px blueviolet,
+                0 0 25px blueviolet,
+                0 0 50px blueviolet,
+                0 0 200px blueviolet;
+    border: 2px solid blueviolet;
+}*/
+
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 5px var(--glow), 0 0 10px var(--glow);
+  }
+  50% {
+    box-shadow: 0 0 25px var(--glow), 0 0 50px var(--glow), 0 0 100px var(--glow);
+  }
+  100% {
+    box-shadow: 0 0 5px var(--glow), 0 0 10px var(--glow);
+  }
+}
+
+
+.hover-animated {
+    color: white;
+    border: 2px solid transparent;
+    animation: pulse 1.5s infinite;
+}
+
+/* Variables de color + estilos visibles */
+.glow-green {
+  --glow: #3ffa36;
+  background-color: var(--glow);
+  box-shadow: 0 0 10px 5px var(--glow);
+  border: 2px solid var(--glow);
+}
+
+.glow-red {
+  --glow: red;
+  background-color: var(--glow);
+  box-shadow: 0 0 10px 5px var(--glow);
+  border: 2px solid var(--glow);
+}
+
+.glow-orange {
+  --glow: orange;
+  background-color: var(--glow);
+  box-shadow: 0 0 10px 5px var(--glow);
+  border: 2px solid var(--glow);
+}
+
+.glow-blue {
+  --glow: blue;
+  background-color: var(--glow);
+  box-shadow: 0 0 10px 5px var(--glow);
+  border: 2px solid var(--glow);
+}
+
+.glow-orangered {
+  --glow: orangered;
+  background-color: var(--glow);
+  box-shadow: 0 0 10px 5px var(--glow);
+  border: 2px solid var(--glow);
+}
+
+/* Light N Dark mode */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.light-mode{
+    background-color: transparent;
+    color: white;
+}
