@@ -71,30 +71,11 @@ button{
     background-color: transparent;
 }
 
-/*.equal:hover{
-    background-color: orangered;
-    color: white;
-    box-shadow: 0 0 5px orangered,
-                0 0 25px orangered,
-                0 0 50px orangered,
-                0 0 200px orangered;
-    border: 2px solid orangered;
-}*/
 
 .arithmetic-operation{
     background-color: transparent;
     color: white;
 }
-
-/*.arithmetic-operation:hover{
-    background-color: orange;
-    color: white;
-    box-shadow: 0 0 5px orange,
-                0 0 25px orange,
-                0 0 50px orange,
-                0 0 200px orange;
-    border: 2px solid orange;
-}*/
 
 .clear{
     background-color: transparent;
@@ -102,61 +83,16 @@ button{
     font-weight: 400;
 }
 
-/*.clear:hover{
-    background-color: red;
-    color: white;
-    box-shadow: 0 0 5px red,
-                0 0 25px red,
-                0 0 50px red,
-                0 0 200px red;
-    border: 2px solid red;
-}*/
-
 .numeric_key{
     background-color: transparent;
     color: white;
 }
 
-/*.numeric_key:hover{
-    background-color: #3ffa36;
-    color: white;
-    box-shadow: 0 0 5px #3ffa36,
-                0 0 25px #3ffa36,
-                0 0 50px #3ffa36,
-                0 0 200px #3ffa36;
-    border: 2px solid #3ffa36;
-}*/
 
 .point{
     background-color: transparent;
     color: white;
 }
-
-/*.point:hover{
-    background-color: blue;
-    color: white;
-    box-shadow: 0 0 5px blue,
-                0 0 25px blue,
-                0 0 50px blue,
-                0 0 200px blue;
-    border: 2px solid blue;
-}*/
-
-/*.light-n-dark-mode{
-    background-color: transparent;
-    color: white;
-}*/
-
-/*.light-n-dark-mode:hover{
-    background-color: blueviolet;
-    color: white;
-    box-shadow: 0 0 5px blueviolet,
-                0 0 25px blueviolet,
-                0 0 50px blueviolet,
-                0 0 200px blueviolet;
-    border: 2px solid blueviolet;
-}*/
-
 
 @keyframes pulse {
   0% {
@@ -213,7 +149,7 @@ button{
   border: 2px solid var(--glow);
 }
 
-/* Light N Dark mode */
+/* Light N Dark mode styles */
 .dark-mode {
   background-color: black;
   color: white;
