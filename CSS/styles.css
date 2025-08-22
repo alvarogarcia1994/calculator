@@ -19,7 +19,7 @@ body{
     background-repeat: no-repeat;
 }
 
-/* Styles for main box (class calculator */
+/* Styles for main box (class calculator) */
 .calculator{
     height: 100vh;
     width: auto;
@@ -54,21 +54,22 @@ input::placeholder{
 }
 
 button{
-    padding: 15px;
-    border: none;
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 2px solid white;
-    font-size: 18px;
-    margin: 0.85rem;
-    color: white;
-    cursor: pointer;
+  padding: 15px;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid white;
+  font-size: 18px;
+  margin: 0.85rem;
+  color: white;
+  cursor: pointer;
 }
 
 .equal{
-    background-color: transparent;
+  width: 130px;
+  background-color: transparent;
 }
 
 
@@ -113,7 +114,6 @@ button{
     animation: pulse 1.5s infinite;
 }
 
-/* Variables de color + estilos visibles */
 .glow-green {
   --glow: #3ffa36;
   background-color: var(--glow);
@@ -152,7 +152,7 @@ button{
 /* Light N Dark mode styles */
 .dark-mode {
   background-color: black;
-  color: white;
+  color: lime;
 }
 
 .light-mode{

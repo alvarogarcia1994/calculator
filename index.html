@@ -6,44 +6,45 @@
         <link rel="stylesheet" href="CSS/styles.css">
     </head>
     <body>
+
         <div class="calculator">
+
             <div class="content">
                 
-                <input type="text" class="display" value="" readonly>
+                <input type="text" id="display" value="" disabled>
                 
                 <div>
                     <button class="clear" onclick='clearDisplay()'>AC</button>
-                    <button class="clear">DE</button>
-                    <button class="arithmetic-operation">%</button>
-                    <button class="arithmetic-operation">/</button>
-                </div>
-
-                <div>
-                    <button class="numeric_key">7</button>
-                    <button class="numeric_key">8</button>
-                    <button class="numeric_key">9</button>
-                    <button class="arithmetic-operation">*</button>
-                </div>
-
-                <div>
-                    <button class="numeric_key">4</button>
-                    <button class="numeric_key">5</button>
-                    <button class="numeric_key">6</button>
-                    <button class="arithmetic-operation">-</button>
-                </div>
-
-                <div>
-                    <button class="numeric_key">1</button>
-                    <button class="numeric_key">2</button>
-                    <button class="numeric_key">3</button>
-                    <button class="arithmetic-operation">+</button>
-                </div>
-
-                <div>
-                    <button class="numeric_key">0</button>
-                    <button class="point">.</button>
-                    <button class="equal">=</button>
                     <button class="light-n-dark-mode" onclick="switchMode()">DM</button>
+                    <button class="arithmetic-operation" onclick="appendOperation('%')">%</button>
+                    <button class="arithmetic-operation" onclick="appendOperation('/')">/</button>
+                </div>
+
+                <div>
+                    <button class="numeric_key" onclick="appendNumber('7')">7</button>
+                    <button class="numeric_key" onclick="appendNumber('8')">8</button>
+                    <button class="numeric_key" onclick="appendNumber('9')">9</button>
+                    <button class="arithmetic-operation" onclick="appendOperation('*')">*</button>
+                </div>
+
+                <div>
+                    <button class="numeric_key" onclick="appendNumber('4')">4</button>
+                    <button class="numeric_key" onclick="appendNumber('5')">5</button>
+                    <button class="numeric_key" onclick="appendNumber('6')">6</button>
+                    <button class="arithmetic-operation" onclick="appendOperation('-')">-</button>
+                </div>
+
+                <div>
+                    <button class="numeric_key" onclick="appendNumber('1')">1</button>
+                    <button class="numeric_key" onclick="appendNumber('2')">2</button>
+                    <button class="numeric_key" onclick="appendNumber('3')">3</button>
+                    <button class="arithmetic-operation" onclick="appendOperation('+')">+</button>
+                </div>
+
+                <div>
+                    <button class="numeric_key" onclick="appendNumber('0')">0</button>
+                    <button class="point" onclick="addDecimalPoint()">.</button>
+                    <button class="equal" onclick="performCalculation()">=</button>
                 </div>
 
             </div>
