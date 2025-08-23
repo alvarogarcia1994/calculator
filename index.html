@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta charset="UTF-8">
         <title>Calculator</title>
         <link rel="stylesheet" href="CSS/styles.css">
     </head>
+
     <body>
 
-        <div class="calculator">
+        <!-- Body of the calculator -->
+        <div class="content">
 
-            <div class="content">
+            <!-- Inner part of the calculator-->
+            <div class="calculator">
                 
-                <input type="text" id="display" value="" disabled>
+                <!-- Display of the calculator -->
+                <div id="display">
+                    
+                    <input type="text" value="" disabled>
+                
+                </div>
                 
                 <div>
                     <button class="clear" onclick='clearDisplay()'>AC</button>
@@ -24,7 +33,7 @@
                     <button class="numeric_key" onclick="appendNumber('7')">7</button>
                     <button class="numeric_key" onclick="appendNumber('8')">8</button>
                     <button class="numeric_key" onclick="appendNumber('9')">9</button>
-                    <button class="arithmetic-operation" onclick="appendOperation('*')">*</button>
+                    <button class="arithmetic-operation" onclick="appendOperation('x')">x</button>
                 </div>
 
                 <div>
