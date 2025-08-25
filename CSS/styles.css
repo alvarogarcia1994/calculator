@@ -46,7 +46,7 @@ input{
   background-color: transparent;
   border: 2px solid white;
   border-radius: 10px;
-  font-size: 36px;
+  font-size: 24px;
   text-align: right;
   color: white;
 }
@@ -67,10 +67,9 @@ button{
 }
 
 /* The equal button has a width of 130px */
-.equal{
+#equal{
   width: 130px;
 }
-
 
 @keyframes pulse {
   0% {
