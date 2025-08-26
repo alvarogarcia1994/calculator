@@ -7,15 +7,16 @@
 - Features: Addition, subtraction, multiplication, division, and percentage.
 
 
-✨ Features
+# Features
 
 - Addition, subtraction, multiplication, division, and percentage.
 
 - Operations handled through JavaScript objects for better readability and scalability.
 
 - Event handling with addEventListener instead of inline onclick attributes.
+  
 
-🛠️ Technologies Used
+# Technologies Used
 
 - HTML5 – structure
 
@@ -24,8 +25,8 @@
 - JavaScript – logic and event handling
   
 
-📂 Project Structure
-/calculator
+# Project Structure
+/odin-calculator
  ├── index.html
  ├── CSS/style.css
  └── JS/script.js
@@ -33,22 +34,15 @@
 
 index.html → Contains the calculator layout.
 
-style.css → Provides styling for buttons and layout.
+CSS/style.css → Provides styling for buttons and layout.
 
-script.js → Handles all the logic for arithmetic operations.
+JS/script.js → Handles all the logic for arithmetic operations.
 
 
-
-📌 Future Improvements
+# Future Improvements
 
 - Add keyboard support.
-
+  
 - Implement memory functions (MC, MR, M+, M-).
-
+  
 - Add scientific calculator features.
-
-
-
-📄 License
-
-- This project is licensed under the MIT License.
