@@ -1,4 +1,4 @@
-# Odin-Calculator
+# Calculator
 
 - A simple calculator built with HTML, CSS, and Vanilla JavaScript, designed to perform basic arithmetic operations.
 
