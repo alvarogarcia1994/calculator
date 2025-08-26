@@ -25,20 +25,6 @@
 - JavaScript – logic and event handling
   
 
-# Project Structure
-/odin-calculator
- ├── index.html
- ├── CSS/style.css
- └── JS/script.js
-
-
-index.html → Contains the calculator layout.
-
-CSS/style.css → Provides styling for buttons and layout.
-
-JS/script.js → Handles all the logic for arithmetic operations.
-
-
 # Future Improvements
 
 - Add keyboard support.
