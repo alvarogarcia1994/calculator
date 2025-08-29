@@ -4,7 +4,7 @@
 
 - This project was developed as part of my learning path, focusing on DOM manipulation, event handling, and object-based operations without using external libraries or frameworks
 
-- Features: Addition, subtraction, multiplication, division, and percentage.
+- Features: Addition, subtraction, multiplication, division, and mod (%).
 
 
 # Features
